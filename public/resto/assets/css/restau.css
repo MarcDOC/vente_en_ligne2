@@ -1,0 +1,72 @@
+.boxBtn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.boxBtn a {
+    margin: 0 10px;
+}
+
+.boxTable {
+    border: solid 1px #25396f;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 16px 0;
+}
+
+.boxMenus {
+    border: solid 1px #eee;
+    border-radius: 8px;
+    margin: 16px 0;
+    overflow: hidden;
+}
+
+.boxMenus div.text {
+    padding: 10px;
+}
+
+.boxMenus div.img {}
+
+.boxMenus div.img img {
+    width: 100%;
+}
+
+.form-body {}
+
+.form-body .form-control {
+    padding: 5px 5px;
+    border-radius: 0;
+    font-size: 14px;
+}
+
+.form-body .form-label {
+    font-size: 14px;
+    margin-bottom: 2px;
+    color: #25396f;
+    font-weight: bold;
+}
+
+.form-body .form-label span {
+    color: #dc3545;
+}
+
+.form-body .btn-light {
+    font-weight: bold;
+}
+
+.form-body .boxImage {}
+
+.form-body .boxImage p {}
+
+.form-body .boxImage img {
+    height: 50px;
+    border: solid 1px #e2e3e5;
+}
+
+.form-group[class*=has-icon-] .form-control-icon {
+    bottom: 20px;
+}
+
+.form-group[class*=has-icon-] .form-control-icon i.bi {
+    font-size: 20px !important;
+}
